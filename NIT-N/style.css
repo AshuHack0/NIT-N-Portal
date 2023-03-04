@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://wallpaperset.com/w/full/8/8/0/462749.jpg);
+  /* background-image: url(https://images.hdqwalls.com/download/white-cube-pattern-4k-bu-1920x1080.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.left {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  /* box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5); */
+  padding: 2rem;
+  border-top: 1rem solid rgba(193, 227, 255, 0.63);
+  border-bottom: 1rem solid rgba(193, 227, 255, 0.63);
+  border-left: 1rem solid rgba(193, 227, 255, 0.63);
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right {
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-direction: column;
+  /* box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5); */
+  padding: 2rem;
+  border-top: 1rem solid rgba(193, 227, 255, 0.63);
+  border-right: 1rem solid rgba(193, 227, 255, 0.63);
+  border-bottom: 1rem solid rgba(193, 227, 255, 0.63);
+  /* border-left: 1rem solid rgba(193, 227, 255, 0.63); */
+  background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148806276.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .right {
+    border-left: 1rem solid rgba(193, 227, 255, 0.63);
+  }
+  .left {
+    border-right: 1rem solid rgba(193, 227, 255, 0.63);
+  }
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item a {
+  margin-left: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  background-color: transparent;
+}
+.nav-item a:hover {
+  color: orange;
+}
+.active {
+  border-bottom: 1px solid #565387;
+  font-weight: bold;
+  color: #3498db !important;
+}
